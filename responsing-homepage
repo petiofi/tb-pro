@@ -1,0 +1,144 @@
+<div class="page-content clearfix">
+<div class="header-image" style="min-width: 640px;">
+      <img src="/wp-content/uploads/2017/02/DSC00543_h1700_90.jpg" alt="dsc00543_h1700_90" style="margin-top: -85px;position: relative;">
+   </div>
+<div class="intro" style="position: absolute; margin-top: -55px; font-size: 20px; text-align: center; color: white; height: 50px; font-weight: 700; vertical-align: middle; line-height: 1; text-transform: uppercase; background: rgba(0, 154, 0, 0.83) none repeat scroll 0% 0%; padding-top: 1%; width: 100%; min-width: 340px;">Безплатни професионални курсове за програмисти</div>
+<div class="short-description" style="min-height: 120px; line-height: 1.4; text-align: center; background: white none repeat scroll 0% 0%; color: rgb(79, 79, 79); font-size: 16px; margin-top: -4px; padding: 2%;">
+<div style="max-width: 700px; display: inline-block;">Hacker School е школа за подготовка на програмисти.<br> Организираме професионални курсове за различни нива и направления в програмирането. Наблягаме на писането на код и практическото решаване на задачи.</div>
+</div>
+<div class="subscribe" style="text-align: center; color: rgb(79, 79, 79); font-weight: 700; text-transform: uppercase; background: rgb(240, 240, 240) none repeat scroll 0% 0%; padding: 2% 20%; font-size: 17px;">
+<div style="padding-bottom: 20px;"> Научете първи за най-новите отворени за записване курсове</div>
+<p style="margin-bottom: 0px; padding-bottom: 20px;"><input name="email" value="" placeholder="Email Adress..." style="height: 35px; min-width: 200px; background: white none repeat scroll 0% 0%; font-size: 16px; display: inline; margin-bottom: 0px;" type="text"></p>
+<div class="subs-button" style="min-width: 25%;">
+         <input value="Абониране" style="border-radius: 0px; height: 35px; background: rgb(0, 148, 7) none repeat scroll 0% 0%; font-weight: bold; font-size: 14px; color: white; text-transform: uppercase; margin-bottom: 20px; min-width: 200px;" type="submit">
+      </div>
+</div>
+<div class="for-begginers" style="background: transparent linear-gradient(rgb(240, 240, 240) 0px, rgb(255, 255, 255) 10%) repeat scroll 0% 0%; min-height: 500px; overflow: auto; padding: 20px; border-bottom: 1px solid rgb(240, 240, 240);">
+<div class="beginners-header" style="font-weight: bold;        text-align: center;        font-family: Nunito,Arial,Helvetica,sans-serif;        font-size: 16px;        margin-top: 20px;        color: #0C9100;">ЗА НАЧИНАЕЩИ</div>
+<div class="beg-description" style="text-align: center;        color: #4f4f4f;        margin: 20px 0 20px 0;">
+         КУРСОВЕТЕ ЗА НАЧИНАЕЩИ ИМАТ ЗА ЦЕЛ ДА ВЪВЕДАТ ХОРА БЕЗ ОПИТ В ПРОГРАМИРАНЕТО.
+      </div>
+<div class="course-container">
+<div class=" course-box"="" style="float: left; width: 246px; height: 350px; padding: 15px; border: 1px solid rgb(204, 204, 204); border-radius: 0px; background-color: rgb(250, 250, 250); margin-bottom: 20px; margin-left: 5%;">
+         <img src="http://wpdev.tb-pro.com/wp-content/uploads/2017/02/images-300x168.jpg" alt="csshtml" class="alignnone size-medium wp-image-334" height="168" width="300">
+<p></p>
+<p style="text-align: center;margin-bottom: 8px;margin-top: -10px;font-size: 15px;font-weight: bold;">Front-end Fundamentals</p>
+<hr style="margin-top: 10px; margin-bottom: 10px;     border-bottom: 1px solid #009407;">
+<ul style="margin-bottom: 15px;margin-top: 15px;">
+<li><strong>Начало: </strong>21.02.2017</li>
+<li><strong>Ниво: </strong>Начинаещи</li>
+<li><strong>Продължителност: </strong> 6 месеца</li>
+</ul>
+<p style="     text-align: center; "><input value="Научете още" style="     height: 35px;     background: #009407;     width: 150px;     font-weight: bold;     font-size: 14px;     color: white;     text-transform: uppercase; " type="submit"></p>
+<p></p>
+</div>
+<div class="course-box" style="float: left; width: 246px; height: 350px; padding: 15px; border: 1px solid rgb(204, 204, 204); border-radius: 0px; background-color: rgb(250, 250, 250); margin-bottom: 20px; margin-left: 5%;">
+         <img src="/wp-content/uploads/2017/02/databases1-300x186.jpg" alt="databases" style="width: 215px;           height: 120px;">
+<p></p>
+<p style="text-align: center;margin-bottom: 8px;margin-top: -10px;font-size: 15px;font-weight: bold;">Database Fundamentals</p>
+<hr style="margin-top: 10px; margin-bottom: 10px;     border-bottom: 1px solid #009407;">
+<ul style="margin-bottom: 15px;margin-top: 15px;">
+<li><strong>Начало: </strong>27.02.2017</li>
+<li><strong>Ниво: </strong>Начинаещи</li>
+<li><strong>Продължителност: </strong> 6 месеца</li>
+</ul>
+<p style="     text-align: center; "><input value="Научете още" style="     height: 35px;     background: #009407;     width: 150px;     font-weight: bold;     font-size: 14px;     color: white;     text-transform: uppercase; " type="submit"></p>
+<p></p>
+</div>
+<div class="course-box" style="float: left; width: 246px; height: 350px; padding: 15px; border: 1px solid rgb(204, 204, 204); border-radius: 0px; background-color: rgb(250, 250, 250); margin-left: 5%;">
+         <img src="http://wpdev.tb-pro.com/wp-content/uploads/2017/02/Linux-300x188.jpg" alt="linux" style="width: 215px;           height: 120px;">
+<p></p>
+<p style="text-align: center;margin-bottom: 8px;margin-top: -10px;font-size: 15px;font-weight: bold;">Linux 101 </p>
+<hr style="margin-top: 10px; margin-bottom: 10px;     border-bottom: 1px solid #009407;">
+<ul style="margin-bottom: 15px;margin-top: 15px;">
+<li><strong>Начало: </strong>21.02.2017</li>
+<li><strong>Ниво: </strong>Начинаещи</li>
+<li><strong>Продължителност: </strong> 6 месеца</li>
+</ul>
+<p style="     text-align: center; "><input value="Научете още" style="     height: 35px;     background: #009407;     width: 150px;     font-weight: bold;     font-size: 14px;     color: white;     text-transform: uppercase; " type="submit"></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="for-adv" style="background: rgb(250, 250, 250) none repeat scroll 0% 0%; height: 530px; padding: 20px; overflow: auto;">
+<div class="adv-header" style="font-weight: bold;      text-align: center;      font-family: Nunito,Arial,Helvetica,sans-serif;      font-size: 16px;      margin-top: 20px;      color: #0C9100;">ЗА НАПРЕДНАЛИ</div>
+<div class="adv-description" style="/* margin-left: 200px; */text-align: center;color: #4f4f4f;margin: 20px 0 20px 0;">КУРСОВЕТЕ ЗА НАПРЕДНАЛИ СА ЗА ОНЕЗИ, КОИТО ВЕЧЕ ИМАТ ОСНОВНИ ЗНАНИЯ И ИСКАТ ДА РАЗВИЯТ СВОИТЕ ПРАКТИЧЕСКИ УМЕНИЯ.</div>
+<div class="course-box" style="float: left; width: 246px; height: 350px; padding: 15px; border: 1px solid rgb(204, 204, 204); border-radius: 0px; background-color: white; margin-left: 5%; margin-bottom: 20px;">
+         <img src="http://wpdev.tb-pro.com/wp-content/uploads/2017/02/Top_4_Trending_Programming_Languages_One_Must_Learn-300x191.jpg" alt="programming" style="width: 215px;    height: 120px;"><p></p>
+<p style="text-align: center;margin-bottom: 8px;margin-top: -10px;font-size: 15px;font-weight: bold;">Programming Advanced</p>
+<hr style="margin-top: 10px; margin-bottom: 10px;     border-bottom: 1px solid #009407;">
+<ul style="margin-bottom: 15px;margin-top: 15px;">
+<li><strong>Начало: </strong>31.03.2017</li>
+<li><strong>Ниво: </strong>Напреднали</li>
+<li><strong>Продължителност: </strong> 6 месеца</li>
+</ul>
+<p style="     text-align: center; "><a href="http://wpdev.tb-pro.com/?page_id=298"><input value="Научете още" style="     height: 35px;     background: #009407;     width: 150px;     font-weight: bold;     font-size: 14px;     color: white;     text-transform: uppercase; " type="submit"></a></p>
+<p></p>
+</div>
+<div class="course-box" style="float: left; width: 246px; height: 350px; padding: 15px; border: 1px solid rgb(204, 204, 204); border-radius: 0px; background-color: white; margin-left: 5%; margin-bottom: 20px;">
+         <img src="http://wpdev.tb-pro.com/wp-content/uploads/2017/02/Linux-300x188.jpg" alt="databases" style="width: 215px;      height: 120px;"><p></p>
+<p style="text-align: center;margin-bottom: 8px;margin-top: -10px;font-size: 15px;font-weight: bold;">Linux Advanced</p>
+<hr style="margin-top: 10px; margin-bottom: 10px;     border-bottom: 1px solid #009407;">
+<ul style="margin-bottom: 15px;margin-top: 15px;">
+<li><strong>Начало: </strong>17.02.2017</li>
+<li><strong>Ниво: </strong>Напреднали</li>
+<li><strong>Продължителност: </strong> 6 месеца</li>
+</ul>
+<p style="     text-align: center; "><input value="Научете още" style="     height: 35px;     background: #009407;     width: 150px;     font-weight: bold;     font-size: 14px;     color: white;     text-transform: uppercase; " type="submit"></p>
+<p></p>
+</div>
+<div class="course-box" style="float: left; width: 246px; height: 350px; padding: 15px; border: 1px solid rgb(204, 204, 204); border-radius: 0px; background-color: white; margin-left: 5%; margin-bottom: 20px;">
+         <img src="http://wpdev.tb-pro.com/wp-content/uploads/2017/02/Linux-300x188.jpg" alt="linux" style="width: 215px;      height: 120px;"><p></p>
+<p style="text-align: center;margin-bottom: 8px;margin-top: -10px;font-size: 15px;font-weight: bold;">Linux Master</p>
+<hr style="margin-top: 10px; margin-bottom: 10px;     border-bottom: 1px solid #009407;">
+<ul style="margin-bottom: 15px;margin-top: 15px;">
+<li><strong>Начало: </strong>21.02.2017</li>
+<li><strong>Ниво: </strong>Напреднали</li>
+<li><strong>Продължителност: </strong> 6 месеца</li>
+</ul>
+<p style="     text-align: center; "><input value="Научете още" style="     height: 35px;     background: #009407;     width: 150px;     font-weight: bold;     font-size: 14px;     color: white;     text-transform: uppercase; " type="submit"></p>
+<p></p>
+</div>
+</div>
+<div class="choose-us" style="background-image: url(&quot;/wp-content/uploads/2017/02/DSC00534_site_HS_black_2000-e1448645828427.jpg&quot;); text-align: center; height: 330px; justify-content: center; overflow: auto;" open="" sans",helvetica,arial,sans-serif;"="">
+<h2 style="color: rgb(79, 79, 79); text-align: center; font-size: 17px; font-weight: 700; padding-top: 20px; padding-bottom: 20px; text-transform: uppercase; font-family: inherit;" open="" sans",helvetica,arial,sans-serif;="" "="">ЗАЩО ДА ИЗБЕРЕТЕ НАС?</h2>
+<div style="text-align: left; display: inline-block; align-self: center;">
+<ul class="disc" style="color: rgb(79, 79, 79); font-size: 16px; display: inline-block; letter-spacing: 1px;" open="" sans",helvetica,arial,sans-serif;="" *="" "="">
+<li><strong><span style="font-size: 100%;">Безплатни курсове</span></strong></li>
+<li><strong><span style="font-size: 100%;">Сертифицирани преподаватели с голям опит</span></strong></li>
+<p>         <strong></strong></p>
+<p>         <strong></strong></p>
+<p>            <strong></strong></p>
+<p><strong></strong></p>
+<p><strong></strong></p>
+<p><strong></strong></p><strong>
+<li><strong><span style="font-size: 100%;">Персонален подход – малки групи до 7 човека</span></strong></li>
+<li><strong><span style="font-size: 100%;">Решаване на практически задачи</span></strong></li>
+<li><span style="font-size: 100%;"><strong>Натоварване съобразено с лекции и упражнения</strong></span></li>
+<li><strong>Възможност за стаж и стипендия</strong></li>
+</strong><p><strong></strong>
+</p>
+</ul>
+</div>
+</div>
+<div class="sponsors" style="background: white none repeat scroll 0% 0%; margin-bottom: -20px;">
+<p style="text-align: center; font-size: 16px; color: rgb(79, 79, 79); padding-top: 25px;">Hacker School BG&nbsp;е проект организиран и финансиран от</p>
+<p style="text-align: center;">
+         <a href="http://telebid-pro.com/">
+         <img src="http://wpdev.tb-pro.com/wp-content/uploads/2017/02/TelebidPro_36x225.png" alt="telebidpro_36x225" class="alignnone size-full wp-image-345" height="36" width="225"></a>
+      </p>
+<p style="text-align: center; font-size: 16px; color: rgb(79, 79, 79); padding-bottom: 25px;">и нашите партньорски компании</p>
+
+<p></p>
+</div>
+<style>
+      .blog .titleBar h2 {
+      display: none!important;
+      }
+      .titleBar {
+      display:none;
+      }
+.course-box ul {margin-left:15px;}
+input {border-radius:0;}
+   </style>
+</div>
