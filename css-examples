@@ -1,4 +1,4 @@
-<----- 1 ----->
+<!--      1      -->
 
 <h1>Hello World!</h1>
 
@@ -23,13 +23,571 @@ li {
 }
 </style>
 
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
-<----- 1 ----->
+<!--      2       -->
+
+<h1>Hello World!</h1>
+
+<p>This is a paragraph.</p>
+
+<ul>
+  <li>This is</li>
+  <li>A list</li>
+</ul>
+
+<style>
+p {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+  padding: 3px;
+  text-align: center;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+</style>
+
+<!--      3      -->
+<!-- For this active learning, we'd like you to try changing the class attributes on the paragraph elements 
+so that you can apply multiple separate effects. Try applying a base-box class plus a role class (editor-note or warning), 
+and optionally important if you want to give the box strong importance. 
+Think about how this kind of rule set allows you to build up a modular system of styles. -->
+
+<p class="base-box first important">My first paragraph.</p>
+
+<p class="second">My second paragraph.</p>
+
+<p class="">My third paragraph</p>
+
+<style>
+.base-box {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  padding: 3px 3px 3px 7px;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.second {
+  background-color: aqua;
+  border-left: 6px solid #333399;
+}
+
+.first {
+  background-color: #ff9999;
+  border-left: 6px solid #993333;
+}
+</style>
+
+<!--      4      -->
+<!-- For this active learning, we'd like you to give the winner, 
+second and third place in the competition an appropriate gold, 
+silver and bronze color by giving CSS rules 2–4 appropriate selectors 
+that select the relevant elements based on their ID. -->
+
+<p id="first"><strong>Winner</strong>: Velma Victory</p>
+<p id="second"><strong>2nd</strong>: Colin Contender</p>
+<p id="third"><strong>3rd</strong>: Phoebe Player</p>
+
+<style>
+p {
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+#first {
+  background-color: goldenrod;
+}
+
+#second {
+  background-color: silver;
+}
+
+#third {
+  background-color: #CD7F32;
+}
+</style>
+
+
+<!--      5      -->
+<!-- In this active learning, we'd like you to try your hand at adding attribute selectors to some rules 
+to style a simple football results listing. There are three things to try to do here:
+
+    The first three rules add a UK, German, and Spanish flag icon respectively to the left hand side of the list items.
+    You need to fill in appropriate attribute selectors so that the teams are given their correct country flags, matched 
+    by language.
+    Rules 4–6 add a background color to the list items to indicate whether the team has gone up in the league 
+    (green, rgba(0,255,0,0.7)), down (red, rgba(255,0,0,0.5)), or stayed in the same place (blue, rgba(0,0,255,0.5).)  
+    Fill in the appropriate attribute selectors to match the correct 
+    colors to the correct teams, matched by the inc, same and dec strings that appear in the data-perf attribute values.
+    Rules 7–8 make teams that are set to be promoted bold, and teams that are in danger of being relegated italic and gray. 
+    Fill in appropriate attribute selectors to match these styles to the correct teams, matched by the pro and rel strings
+    that appear in the data-perf attribute values.
+ -->
+<ol>
+  <li lang="en-GB" data-perf="inc-pro">Manchester United</li>
+  <li lang="es" data-perf="same-pro">Barcelona</li>
+  <li lang="de" data-perf="dec">Bayern Munich</li>
+  <li lang="es" data-perf="same">Real Madrid</li>
+  <li lang="de" data-perf="inc-rel">Borussia Dortmund</li>
+  <li lang="en-GB" data-perf="dec-rel">Southampton FC</li>
+</ol>
+
+<style>
+li[lang="en-GB"] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/en-GB.png") 5px center no-repeat;
+ }
+
+li[lang="de"] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/de.png") 5px center no-repeat;
+ }
+
+li[lang="es"] {
+   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/es.png") 5px center no-repeat;
+ }
+
+li[data-perf^="inc"] {
+   background-color: rgba(0,255,0,0.7);
+ }
+
+li[data-perf^="same"] {
+   background-color: rgba(0,0,255,0.5);
+ }
+
+li[data-perf^="dec"] {
+   background-color: rgba(255,0,0,0.7);
+ }
+
+li[data-perf$="pro"] {
+   font-weight: bold;
+ }
+
+li[data-perf*="rel"] {
+   font-style: italic;
+   color: #666;
+ }
+
+ol {
+   padding: 0;
+ }
+
+li {
+   padding: 3px 3px 3px 34px;
+   margin-bottom: 5px;
+   list-style-position: inside;
+ }
+</style>
+
+<!--      6      -->
+<!-- in this active learning segment we'd like you to add some zebra striping to a list of info links, 
+and also add an appropriate pseudo-classes to style the links differently when they are hovered over. 
+You'll only need to edit the last three rules in this exercise. Some hints:
+
+    You have already seen how to write the second pseudo class for the hover styles.
+    For the zebra striping you'll need to use a pseudo class like :nth-of-type(), giving the two color 
+    rules a slightly different version of the pseudo class to style the even and odd numbered list items. 
+    See if you can look up how to do this!
+ -->
+ <ul>
+  <li><a href="#">United Kingdom</a></li>
+  <li><a href="#">Germany</a></li>
+  <li><a href="#">Finland</a></li>
+  <li><a href="#">Russia</a></li>
+  <li><a href="#">Spain</a></li>
+  <li><a href="#">Poland</a></li>
+</ul>
+<style>
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 3px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+li:nth-of-type(2n) {
+  background-color: #ccc;
+}
+
+li:nth-of-type(2n+1) {
+  background-color: #eee;
+}
+</style>
+ 
+<!--      7      -->
+<!-- Next up for active learning, we have a fancy paragraph to style! 
+All you've got to do here is apply the two rulesets to the paragraph's first line and first letter,
+using the ::first-line and ::first-letter pseudo elements. This should style the first line of the 
+paragraph in bold and the first letter as a nice drop cap, giving it an old-style feel. -->
+
+ <p>This is my very important paragraph.
+ I am a distinguished gentleman of such renown that my paragraph
+ needs to be styled in a manner befitting my majesty. Bow before 
+my splendour, dear students, and go forth and learn CSS!</p>
+<style>
+p::first-line {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 3em;
+  border: 1px solid black;
+  background: red;
+  display: block;
+  float: left;
+  padding: 2px;
+  margin-right: 4px;
+}
+</style>
+
+<!--      8      -->
+<!-- The above example was designed to show the sort of complexity you can start to achieve with combinators. 
+In this active learning, we will get you to write some of your own, more simple selectors that include combinators. 
+In this exercise you need to add a selector to rules 2–4, to:
+
+    Style links, but only links that are inside the unordered list.
+    Style links inside the unordered list, only when they are being hovered over.
+    Style only the paragraph that comes directly after the top level heading. -->
+    
+    
+    
+<style>
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  background-color: red;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+ul a:hover {
+  color: red;
+  background-color: black;
+}
+
+ h1 + p {
+  font-style: bold;
+  color: blue;
+}
+</style>
+ 
+<!--      9      -->
+<!-- For this active learning, there are no right answers. We'd simply like you to have a go at playing with the width/height
+of the .inner and .outer divs to see what effects the different values have. Try a percentage value for the 
+.inner div, and see how it adjusts as the .outer div's width changes. Try some fixed values as well, such as pixels and ems. -->
+ 
+ <div class="outer">
+  <div class="inner">
+  </div>
+</div>
+<style>
+ .outer {
+  width: 15%;
+  height: 10em;
+  background-color: red;
+}
+
+.inner {
+  width: 5em;
+  height: 5em;
+  background-color: blue;
+}
+</style>
+
+<!--      10      -->
+<!-- This active learning session also has no right answers — we'd just like you to alter the background color 
+values of the three boxes below that are slightly overlaid on top of one another. 
+Try keywords, hex, RGB/HSLA/RGBA/HSLA, and the opacity property. See how much fun you can have. -->
+<div class="first">
+</div>
+<div class="second">
+</div>
+<div class="third">
+</div>
+
+<style>
+.first {
+  background-color: rgba(158,70,3,0.9);
+  width: 400px;
+  height: 200px;
+  top: 0;
+  left: 100px;
+}
+
+.second {
+  background-color: hsla(240,100%,50%,0.5);
+  width: 200px;
+  height: 200px;
+  top: -150px;
+  left: 125px;
+}
+
+.third {
+  background-color: rgb(40,50,33);
+  width: 200px;
+  height: 300px;
+  top: -375px;
+  left: 250px;
+}
+
+.first, .second, .third {
+  position: relative;
+}
+</style>
+ 
+<!--      11      -->
+<!-- In this active learning we'd like you to experiment with writing a single new rule that will override the color a
+nd background color that we've applied to the links by default. Can you use one of the special values we looked at in 
+the Controlling_inheritance section to write a declaration in a new rule that will reset the background color back to white, 
+without using an actual color value? -->
+
+<div id="outer" class="container">
+  <div id="inner" class="container">
+    <ul>
+      <li class="nav"><a href="#">One</a></li>
+      <li class="nav"><a href="#">Two</a></li>
+    </ul>
+  </div>
+</div>
+
+<style>
+#outer div ul .nav a {
+  background-color: blue;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+div div li a {
+  color: yellow;
+}
+#outer #inner a {
+  background-color: initial;
+  color: pink;
+}
+</style>
+
+<!--      12     -->
+<!-- n the editable sample below, we have a set of three boxes, all of which contain text content and have been styled to 
+span the whole of the body width. They are represented by <header>, <main>, and <footer> elements in the markup.  
+We'd like you to concentrate on the bottom three CSS rules — the ones that target each box individually — and try the following:
+
+    Have a look at the box model of each individual element on the page by opening up the browser developer
+      tools and clicking on the elements in the DOM inspector. See Discover browser developer tools for help on how to do this.
+    Each browser has a box model viewer that shows exactly what margin, border and padding is applied to each box, 
+      how big the content box is, and the total space the element takes up.
+    Set some margin-bottom on the <main> element, say 20px. Now set some margin-top on the <footer> element, 
+      say 15px. Note how the 2nd one of these actions makes no difference to the layout — this shows margin collapsing in action; the smaller margin's effective width is reduced to 0, leaving only the larger margin.
+    Set a margin of 30px and a padding of 30px on every side of the <main> element — note how the space around the element 
+      (the margin) and the space between the border and the content (the padding) both increase, causing the actual content 
+      to take up a small amount of space. Again, check this with the browser developer tools.
+    Set a larger border on all sides of the <main> element, say 40px, and notice how this takes space away from the content 
+      rather than the margin or padding. You could do this by setting a complete new set of values for the width, style and
+      color with the border property, e.g. 60px dashed red, but since the properties are already set in a previous rule, 
+      you could just set a new border-width.
+    By default, the content width is set to 100% of the available space (after the margin, border, and padding have taken their
+      share) — if you change the browser window width, the boxes will grow and shrink to stay contained inside the example 
+      output window. The height of the content will default to the height of the content inside it.
+    Try setting a new width and height on the <main> element — start with say 400px width and 200px height — and observe 
+      the effect. You'll notice that the width no longer changes as the browser window is resized.
+    Try setting a percentage width on the <main> element instead — say 60% width — and observe the effect. 
+      You should see that the width now changes again as the browser window is resized. Remove the <main> element's height 
+      setting for now.
+    Try setting your <main> element's padding and margin to be 5% on all sides, and observe the result. If you use your 
+      browser developer tools to look at the width of the example output window and compare that to the width of the 
+      margin/padding, you'll see that this 5% means "5% of the containing element's width." So as the size of the example 
+      output window increases, so does the padding/margins.
+    Margins can accept negative values, which can be used to cause element boxes to overlap. Try setting margin-top: -50px; on the <main> element to see the effect. -->
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Box model</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>Header</header>
+    <main>Main content</main>
+    <footer>Footer</footer>
+  </body>
+</html>
+
+<style>
+body {
+  margin: 0;
+}
+
+body > * {
+  padding: 10px;
+  font-size: 20px;
+  border: 20px solid rgba(0,0,0,0.5);
+}
+
+/* specific boxes */
+
+header, footer {
+  background-color: blue;
+  color: white;
+}
+
+main {
+  margin: 5%;
+  margin-top: -50px;
+  padding: 30px;
+  width: 60%;
+  background-color: yellow;
+  border: 60px dashed red;
+}
+
+header {
+ margin-bottom: 5%;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+</style>
+
+<!--      13      -->
+<!-- Active learning: find the errors!
+
+So, with the tool basics outlined, let's try to find our errors. In each case, you should try clicking on the element where 
+the fault is, to see what the applied CSS looks like.
+
+    The <header> and <footer> elements are supposed have a background color, but no color appears.
+    The <h1> and the <p> inside the footer are both too high up on the page — this is especially apparent on the <h1>, 
+      which is nearly off the screen! You could try clicking on the <h1> and unchecking the applied declarations to find out
+      which one is causing the problem.
+    The <img> is supposed to be floated down and to the right so it sits to the right of some of the text, 
+      but it isn't — it's directly above all of the text.
+    The text in the <main> content area is far too small — the paragraphs and list items should have a larger 
+      font-size applied to it, but it doesn't seem to have been applied to either. Hint: This one is a bit harder,
+      as it is a problem with the selector rather than a property.  You may have to study the source code to find this —
+      you can find it in the Style Editor in Firefox's developer tools. -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Debugging CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My imperfect page</h1>
+    </header> 
+
+    <main>
+
+      <h2>My article</h2>
+
+      <img src="https://mdn.mozillademos.org/files/11947/ff-logo.png" alt="firefox logo">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Integer nec odio. Praesent libero.</li>
+        <li>Sed cursus ante dapibus diam.</li>
+      </ul>
+
+      <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.</p>
+      
+    </main>
+
+    <footer>
+      <p>&copy;1978 Chris' brain</p>
+    </footer>  
+  </body>
+</html>
+
+<style>
+/* General styles */
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+}
+
+body {
+  width: 80em;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3.2em;
+}
+
+p, li {
+  font-size: 1.7em;
+}
+
+/*+++ more specific section styles +++*/
+
+/* header and footer */
+
+header, footer {
+  background-color: teal;
+  height: 10em;
+  padding: 2em;
+}
+
+footer {
+  height:5em;
+}
+
+h1, footer p {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+/* main content */
+
+main {
+  padding: 2em;
+}
+
+main p, main li {
+  line-height: 2;
+}
+
+img {
+  float: right;
+}
+</style>
+
+<!--      14      -->
+<!--  -->
+
+<!--            -->
+<!--  -->
+<!--            -->
+<!--  -->
