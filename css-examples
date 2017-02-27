@@ -684,6 +684,66 @@ article p {
 }
 </style>
 
-<!--            -->
-<!--  -->
+<!--      13      -->
+<!-- Give the unordered list square bullets.
+Give the unordered list items and the ordered list items a line height of 1.5 of their font-size.
+Give the ordered list lower alphabetical bullets. -->
+
+
+<ul>
+  <li>First, light the candle.</li>
+  <li>Next, open the box.</li>
+  <li>Finally, place the three magic items in the box, in this exact order, to complete the spell:
+    <ol>
+      <li>The book of spells</li>
+      <li>The shiny rod</li>
+      <li>The goblin statue</li>
+    </ol>
+  </li>
+</ul>
+
+ul {
+  list-style-type: square;
+}
+
+ul, li {
+  line-height: 1.5;
+}
+
+ol li {
+  list-style-type: lower-alpha
+}
+
+<!--           -->
+<!-- -->
+
+
+
+<!--           -->
+<!-- -->
+
+
+<!--           -->
+<!-- -->
+
+
+<!--           -->
+<!-- -->
+
+
+<!--           -->
+<!-- -->
+
+<!--           -->
+<!-- -->
+
+
+
+
+
+
+
+
+
+
 
